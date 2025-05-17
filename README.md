@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Sat-14/Sat-14/main/assets/header.svg" width="100%" alt="Satwik Rai" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6e40c9&height=200&section=header&text=Satwik%20Rai&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=AI/ML%20Specialist%20|%20Backend%20Developer&descAlignY=55&descSize=20" width="100%" alt="Satwik Rai" />
 </div>
 
 <p align="center">
