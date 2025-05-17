@@ -26,20 +26,43 @@
 
 ## 💫 About Me
 
-```python
-class Satwik:
-    def __init__(self):
-        self.about = {
-            "loves": ["AI/ML", "Backend Dev", "Time Series Analysis", "Competitive Programming"],
-            "tech_stack": ["Python", "TensorFlow", "PyTorch", "FastAPI", "Node.js", "MongoDB"],
-            "currently_building": ["ML pipelines", "Pricing engines", "Predictive models"],
-            "currently_learning": ["MLOps", "XAI", "LLM fine-tuning"],
-            "fun_fact": "I can turn coffee into code and problems into solutions! ☕→💻"
-        }
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=A177FE&height=120&section=header&text=AI/ML%20Enthusiast&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=25" alt="header" />
+  
+  <div>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=2000&pause=500&color=A177FE&center=true&multiline=true&width=500&height=120&lines=🧠+Machine+Learning+%26+AI+Explorer;🛠️+Backend+Developer;📊+Time+Series+Analysis+Lover;🏆+Problem+Solver+%26+Builder" alt="Skills" />
+  </div>
+  
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <h3>What I Love</h3>
+        <p>
+          <img src="https://media.giphy.com/media/IgFrYuNP59iMMoJ3rm/giphy.gif" width="100" alt="AI" /><br/>
+          AI/ML • Time Series • Predictions<br/>
+          Backend Systems • APIs • Node.js<br/>
+          Building Things That Matter
+        </p>
+      </td>
+      <td width="50%" align="center">
+        <h3>Currently Learning</h3>
+        <p>
+          <img src="https://media.giphy.com/media/RbDKaczqWovIugyJmW/giphy.gif" width="100" alt="Learning" /><br/>
+          MLOps • Model Deployment<br/>
+          Explainable AI • LLM Fine-tuning<br/>
+          Advanced Time Series Models
+        </p>
+      </td>
+    </tr>
+  </table>
+  
+  <blockquote>
+    <p>"I turn coffee into code and problems into solutions! ☕→💻"</p>
+  </blockquote>
+  
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=A177FE&height=100&section=footer" alt="footer" />
+</div>
 
-    def say_hi(self):
-        print("Thanks for dropping by! Let's build something amazing together!")
-```
 
 ## 📊 My GitHub Universe
 
@@ -56,14 +79,11 @@ class Satwik:
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sat-14&theme=midnight-purple&hide_border=true" alt="GitHub Streak Stats" />
 </div>
 
-## 🚀 Featured Projects
+## 🐍 Contribution Graph
 
-<a href="https://github.com/Sat-14/inventory-sales-predictor">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Sat-14&repo=inventory-sales-predictor&theme=midnight-purple&hide_border=true" />
-</a>
-<a href="https://github.com/Sat-14/meditrend-ai">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=Sat-14&repo=meditrend-ai&theme=midnight-purple&hide_border=true" />
-</a>
+<div align="center">
+  <img src="https://github.com/Sat-14/Sat-14/blob/output/github-contribution-grid-snake-dark.svg" alt="Snake eating my contributions" />
+</div>
 
 ## 🛠️ My Tech Toolbox
 
