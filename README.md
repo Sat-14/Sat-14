@@ -1,103 +1,185 @@
+<!-- DARK MATRIX HEADER -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6e40c9&height=200&section=header&text=Satwik%20Rai&fontSize=40&fontColor=ffffff&animation=twinkling&fontAlignY=35&desc=AI/ML%20Specialist%20|%20Backend%20Developer&descAlignY=55&descSize=20" width="100%" alt="Satwik Rai" />
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=6e40c9&height=250&section=header&text=SATWIK%20RAI&fontSize=60&fontColor=ffffff&animation=twinkling&fontAlignY=40&desc=AI/ML%20Specialist%20⚡%20Backend%20Developer%20⚡%20Problem%20Solver&descAlignY=65&descSize=18&stroke=6e40c9" width="100%" alt="Header" />
 </div>
 
 <p align="center">
   <a href="https://github.com/Sat-14?tab=followers">
-    <img src="https://img.shields.io/github/followers/Sat-14?label=Followers&style=for-the-badge&color=6e40c9" alt="GitHub Followers" />
+    <img src="https://img.shields.io/github/followers/Sat-14?label=Followers&style=for-the-badge&color=6e40c9&labelColor=0d1117" alt="GitHub Followers" />
   </a>
   <a href="https://linkedin.com/in/satwik-rai-050426338">
-    <img src="https://img.shields.io/badge/-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0d1117" alt="LinkedIn" />
   </a>
   <a href="mailto:pulakrai10@gmail.com">
-    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=0d1117" alt="Email" />
   </a>
   <a href="https://satwik.lstv.space">
-    <img src="https://img.shields.io/badge/-Portfolio-6e40c9?style=for-the-badge&logo=About.me&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/-Portfolio-6e40c9?style=for-the-badge&logo=About.me&logoColor=white&labelColor=0d1117" alt="Portfolio" />
   </a>
-  <img src="https://komarev.com/ghpvc/?username=Sat-14&style=for-the-badge&color=6e40c9" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=Sat-14&style=for-the-badge&color=6e40c9&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
 
-<!-- About Me Section -->
+<!-- TYPING ANIMATION -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=25&duration=3000&pause=1000&center=true&vCenter=true&width=435&lines=AI%2FML+Specialist;Backend+Developer;Problem+Solver" alt="Typing SVG" style="margin-bottom: 15px;" />
-  
-  <p>
-    <img src="https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif" width="450" align="right" alt="AI/ML GIF" />
-  </p>
-  
-  <ul align="left" style="margin-right: 440px; display: inline-block;">
-    <li>🧠 Building AI/ML systems that solve real problems</li>
-    <li>⚙️ Specializing in time series forecasting & NLP</li>
-    <li>🌱 Currently exploring MLOps & model explainability</li>
-    <li>💻 Expert in Python, TensorFlow, FastAPI & MongoDB</li>
-    <li>🚀 Converting coffee into code and ideas into solutions</li>
-  </ul>
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=30&duration=3000&pause=1000&color=6E40C9&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=%3E+AI%2FML+Specialist+%F0%9F%A7%A0;%3E+Backend+Architect+%E2%9A%99%EF%B8%8F;%3E+Code+%7C+Build+%7C+Deploy+%F0%9F%9A%80" alt="Typing SVG" />
 </div>
+
+<br>
+
+<!-- ABOUT ME SECTION -->
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="380" alt="Coding GIF" />
+
+### `> whoami`
+
+```yaml
+name: Satwik Rai
+located_in: India
+current_focus: AI/ML Systems & MLOps
+education: Building the future, one model at a time
+
+fields_of_interest:
+  - Time Series Forecasting
+  - Natural Language Processing
+  - Model Explainability
+  - Backend Architecture
+
+currently_exploring:
+  - MLOps Pipelines
+  - LLM Fine-tuning
+  - Distributed Systems
+
+fun_fact: "I convert coffee into code
+           and ideas into deployed solutions"
+```
 
 <br clear="both">
 
-<!-- Tech Stack Section -->
-<h2 align="center">⚙️ Technologies & Tools</h2>
+<!-- GITHUB TROPHIES -->
+<h2 align="center">🏆 GitHub Trophies</h2>
 <div align="center">
-  <p>
-    <img src="https://img.shields.io/badge/Python-14161A?style=for-the-badge&logo=python&logoColor=white&labelColor=306998" />
-    <img src="https://img.shields.io/badge/TensorFlow-14161A?style=for-the-badge&logo=tensorflow&logoColor=white&labelColor=FF6F00" />
-    <img src="https://img.shields.io/badge/PyTorch-14161A?style=for-the-badge&logo=pytorch&logoColor=white&labelColor=EE4C2C" />
-    <img src="https://img.shields.io/badge/Scikit--Learn-14161A?style=for-the-badge&logo=scikit-learn&logoColor=white&labelColor=F7931E" />
-    <img src="https://img.shields.io/badge/NodeJS-14161A?style=for-the-badge&logo=node.js&logoColor=white&labelColor=339933" />
-    <img src="https://img.shields.io/badge/C++-14161A?style=for-the-badge&logo=cplusplus&logoColor=white&labelColor=00599C" />
-    <img src="https://img.shields.io/badge/MongoDB-14161A?style=for-the-badge&logo=mongodb&logoColor=white&labelColor=47A248" />
-    <img src="https://img.shields.io/badge/FastAPI-14161A?style=for-the-badge&logo=fastapi&logoColor=white&labelColor=009688" />
-    <img src="https://img.shields.io/badge/Flask-14161A?style=for-the-badge&logo=flask&logoColor=white&labelColor=000000" />
-    <img src="https://img.shields.io/badge/Docker-14161A?style=for-the-badge&logo=docker&logoColor=white&labelColor=2496ED" />
-    <img src="https://img.shields.io/badge/Git-14161A?style=for-the-badge&logo=git&logoColor=white&labelColor=F05032" />
-    <img src="https://img.shields.io/badge/Pandas-14161A?style=for-the-badge&logo=pandas&logoColor=white&labelColor=150458" />
-  </p>
+  <img src="https://github-profile-trophy.vercel.app/?username=Sat-14&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" alt="Trophies" />
 </div>
 
-<!-- GitHub Stats Section -->
-<h2 align="center">📊 GitHub Stats</h2>
+<!-- TECH STACK SECTION -->
+<h2 align="center">⚙️ Arsenal</h2>
+
 <div align="center">
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Sat-14&count_private=true&show_icons=true&bg_color=0d1117&title_color=6e40c9&text_color=ffffff&icon_color=6e40c9&hide_border=true&include_all_commits=true" alt="GitHub Stats" />
-  </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sat-14&bg_color=0d1117&title_color=6e40c9&text_color=ffffff&hide_border=true&layout=compact&langs_count=8" alt="Top Languages" />
-  </a>
+  <table>
+    <tr>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=python" width="50" /><br><b>Python</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=tensorflow" width="50" /><br><b>TensorFlow</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=pytorch" width="50" /><br><b>PyTorch</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=nodejs" width="50" /><br><b>Node.js</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=cpp" width="50" /><br><b>C++</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=fastapi" width="50" /><br><b>FastAPI</b>
+      </td>
+    </tr>
+    <tr>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=mongodb" width="50" /><br><b>MongoDB</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=flask" width="50" /><br><b>Flask</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=docker" width="50" /><br><b>Docker</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=git" width="50" /><br><b>Git</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=linux" width="50" /><br><b>Linux</b>
+      </td>
+      <td align="center" width="140">
+        <img src="https://skillicons.dev/icons?i=vscode" width="50" /><br><b>VS Code</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
+<!-- GITHUB STATS -->
+<h2 align="center">📊 Stats</h2>
+
+<div align="center">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Sat-14&count_private=true&show_icons=true&bg_color=0d1117&title_color=6e40c9&text_color=c9d1d9&icon_color=6e40c9&hide_border=true&include_all_commits=true&ring_color=6e40c9" alt="Stats" />
+  <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Sat-14&background=0d1117&ring=6e40c9&fire=6e40c9&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=6e40c9&sideLabels=6e40c9&dates=8b949e&hide_border=true&stroke=6e40c9" alt="Streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Sat-14&background=0d1117&ring=6e40c9&fire=6e40c9&currStreakNum=ffffff&sideNums=ffffff&currStreakLabel=6e40c9&sideLabels=6e40c9&dates=8b949e&hide_border=true" alt="GitHub Streak Stats" />
+  <img width="40%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sat-14&bg_color=0d1117&title_color=6e40c9&text_color=c9d1d9&hide_border=true&layout=compact&langs_count=8" alt="Languages" />
 </div>
 
-<!-- Contribution Graph Section -->
-<h2 align="center">📈 Contribution Activity</h2>
+<!-- ACTIVITY GRAPH -->
+<h2 align="center">📈 Contribution Graph</h2>
 <div align="center">
-  <a href="https://github.com/Sat-14">
-    <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sat-14&theme=react-dark&bg_color=0d1117&color=6e40c9&line=6e40c9&point=ffffff&area=true&hide_border=true" width="95%" alt="Activity Graph">
-  </a>
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sat-14&bg_color=0d1117&color=6e40c9&line=6e40c9&point=ffffff&area=true&hide_border=true&area_color=6e40c920" width="95%" alt="Activity Graph" />
 </div>
 
-<!-- Coding Activity -->
-<h2 align="center">💻 Weekly Coding Stats</h2>
+<!-- SNAKE ANIMATION -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sat-14/Sat-14/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Sat-14/Sat-14/output/github-snake.svg" />
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/Sat-14/Sat-14/output/github-snake-dark.svg" />
+  </picture>
+</div>
+
+> 💡 **To enable the snake animation:** Add a GitHub Action in your profile repo. See [Platane/snk](https://github.com/Platane/snk) for setup instructions.
+
+<!-- CODING STATS -->
+<h2 align="center">⌨️ Weekly Coding Stats</h2>
+
+<div align="center">
 
 ```text
-Python       10 hrs 36 mins  ██████████▒░░░░░░░░░░░░░░  48.2%
-Node.js      4 hrs 24 mins   ████▒░░░░░░░░░░░░░░░░░░░░  20.0%
-C++          2 hrs 12 mins   ██▓░░░░░░░░░░░░░░░░░░░░░░  10.0%
-MongoDB      1 hr 45 mins    ██░░░░░░░░░░░░░░░░░░░░░░░   8.0%
-FastAPI      1 hr 30 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   6.8%
-TensorFlow   1 hr 10 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   5.3%
+🐍 Python       10 hrs 36 mins  ████████████░░░░░░░░░░░░░  48.2%
+🟢 Node.js       4 hrs 24 mins  █████░░░░░░░░░░░░░░░░░░░░  20.0%
+🔵 C++           2 hrs 12 mins  ███░░░░░░░░░░░░░░░░░░░░░░  10.0%
+🍃 MongoDB       1 hr  45 mins  ██░░░░░░░░░░░░░░░░░░░░░░░   8.0%
+⚡ FastAPI       1 hr  30 mins  ██░░░░░░░░░░░░░░░░░░░░░░░   6.8%
+🧠 TensorFlow    1 hr  10 mins  █▓░░░░░░░░░░░░░░░░░░░░░░░   5.3%
 ```
 
-<!-- Quote Section -->
-<div align="center">
-  <h2>💭 Daily Quote</h2>
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark" alt="Quote" />
 </div>
 
-<!-- Footer -->
+<!-- METRICS / ISOMETRIC -->
+<h2 align="center">🎯 Metrics</h2>
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=6e40c9&height=120&section=footer" width="100%" alt="Footer" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Sat-14&theme=github_dark" width="95%" alt="Profile Details" />
+</div>
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Sat-14&theme=github_dark" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Sat-14&theme=github_dark" width="32%" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Sat-14&theme=github_dark&utcOffset=5.5" width="32%" />
+</div>
+
+<!-- RANDOM DEV QUOTE -->
+<div align="center">
+  <h2>💭 Dev Quote</h2>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&border=true&quote_color=6e40c9" alt="Quote" />
+</div>
+
+<!-- SPOTIFY / NOW PLAYING (OPTIONAL) -->
+<!-- Uncomment below if you set up https://github.com/novatorem/novatorem -->
+<div align="center">
+  <h2>🎧 Now Playing</h2>
+  <a href="https://open.spotify.com/user/31jn7x6vfsvevmer66xf74ggq25i">
+    <img src="https://novatorem-sat-14.vercel.app/api/spotify" alt="Spotify Now Playing" width="400" />
+  </a>
+</div> 
+
+<!-- FOOTER -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=venom&color=6e40c9&height=150&section=footer&animation=twinkling" width="100%" alt="Footer" />
 </div>
