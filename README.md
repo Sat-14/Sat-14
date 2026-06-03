@@ -7,7 +7,9 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/discord-6__pillow__9-0b1120?style=for-the-badge&logo=discord&logoColor=7dd3fc&labelColor=020617" alt="Discord: 6_pillow_9" />
+  <a href="https://discord.com/users/982740402509598770">
+    <img src="https://img.shields.io/badge/Discord_Profile-0b1120?style=for-the-badge&logo=discord&logoColor=7dd3fc&labelColor=020617" alt="Discord profile" />
+  </a>
   <a href="https://t.me/Stwzxs">
     <img src="https://img.shields.io/badge/telegram-@Stwzxs-0b1120?style=for-the-badge&logo=telegram&logoColor=7dd3fc&labelColor=020617" alt="Telegram: @Stwzxs" />
   </a>
