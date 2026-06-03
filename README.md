@@ -7,11 +7,9 @@
 </div>
 
 <p align="center">
-  <a href="https://discord.gg/53CSgmGdGP">
-    <img src="https://img.shields.io/badge/discord-0b1120?style=for-the-badge&logo=discord&logoColor=7dd3fc&labelColor=020617" alt="Discord" />
-  </a>
-  <a href="https://t.me/kekw11">
-    <img src="https://img.shields.io/badge/telegram-0b1120?style=for-the-badge&logo=telegram&logoColor=7dd3fc&labelColor=020617" alt="Telegram" />
+  <img src="https://img.shields.io/badge/discord-6__pillow__9-0b1120?style=for-the-badge&logo=discord&logoColor=7dd3fc&labelColor=020617" alt="Discord: 6_pillow_9" />
+  <a href="https://t.me/Stwzxs">
+    <img src="https://img.shields.io/badge/telegram-@Stwzxs-0b1120?style=for-the-badge&logo=telegram&logoColor=7dd3fc&labelColor=020617" alt="Telegram: @Stwzxs" />
   </a>
   <a href="mailto:pulakrai10@gmail.com">
     <img src="https://img.shields.io/badge/email-0b1120?style=for-the-badge&logo=gmail&logoColor=a78bfa&labelColor=020617" alt="Email" />
