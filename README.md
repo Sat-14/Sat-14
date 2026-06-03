@@ -1,9 +1,5 @@
 <div align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&height=220&section=header&text=SATWIK%20RAI&fontSize=54&fontAlignY=38&desc=Backend%20Systems%20%7C%20AI%2FML%20%7C%20Automation&descSize=17&descAlignY=58&color=0:020617,45:0f172a,100:111827&fontColor=e5e7eb&animation=fadeIn"
-    width="100%"
-    alt="Satwik Rai"
-  />
+  <img src="./assets/header.svg" width="100%" alt="Satwik Rai - backend systems, AI/ML, automation" />
 </div>
 
 <p align="center">
@@ -11,32 +7,53 @@
     <img src="https://img.shields.io/badge/Discord_Profile-0b1120?style=for-the-badge&logo=discord&logoColor=7dd3fc&labelColor=020617" alt="Discord profile" />
   </a>
   <a href="https://t.me/Stwzxs">
-    <img src="https://img.shields.io/badge/telegram-@Stwzxs-0b1120?style=for-the-badge&logo=telegram&logoColor=7dd3fc&labelColor=020617" alt="Telegram: @Stwzxs" />
+    <img src="https://img.shields.io/badge/Telegram-@Stwzxs-0b1120?style=for-the-badge&logo=telegram&logoColor=7dd3fc&labelColor=020617" alt="Telegram: @Stwzxs" />
   </a>
   <a href="mailto:pulakrai10@gmail.com">
-    <img src="https://img.shields.io/badge/email-0b1120?style=for-the-badge&logo=gmail&logoColor=a78bfa&labelColor=020617" alt="Email" />
+    <img src="https://img.shields.io/badge/Email-0b1120?style=for-the-badge&logo=gmail&logoColor=a78bfa&labelColor=020617" alt="Email" />
   </a>
 </p>
 
-<p align="center">
-  <strong>Building production software where backend systems, automation, and AI meet.</strong>
-</p>
-
-<p align="center">
-  I like shipping practical systems: APIs, payment flows, admin tools, trading automation,
-  ML experiments, and deployment pipelines that stay understandable after they go live.
-</p>
-
----
-
-### Current Orbit
-
 ```txt
-Focus        Backend engineering, AI/ML systems, automation
-Building     Production web platforms, service orchestration, payment tooling
-Exploring    LLM workflows, MLOps, distributed system reliability
-Based in     India
+> building systems that survive real users
+> backend-first, automation-heavy, AI-aware
+> from idea to production, with logs to prove it
 ```
+
+I build practical software around APIs, workers, payment flows, admin tooling, trading automation,
+ML experiments, and deployment pipelines. I care most about systems that keep working after they
+leave localhost.
+
+### Featured Build
+
+<table>
+  <tr>
+    <td width="140" align="center"><strong>tf2cart</strong></td>
+    <td>
+      Automated TF2 key trading platform with crypto payments, Steam bot automation,
+      live pricing, admin controls, service management, SEO landing pages, and VPS deployment.
+    </td>
+  </tr>
+</table>
+
+### Focus Panels
+
+<table>
+  <tr>
+    <td width="33%">
+      <h3>Backend Systems</h3>
+      <p>APIs, workers, queues, database flows, auth, admin surfaces, and operational controls.</p>
+    </td>
+    <td width="33%">
+      <h3>Automation</h3>
+      <p>Steam bots, payment monitors, deployment scripts, service restarts, and status tooling.</p>
+    </td>
+    <td width="33%">
+      <h3>AI / ML</h3>
+      <p>Forecasting, NLP, model experiments, explainability, LLM workflows, and MLOps foundations.</p>
+    </td>
+  </tr>
+</table>
 
 ### Stack
 
@@ -44,20 +61,20 @@ Based in     India
   <img src="https://skillicons.dev/icons?i=python,js,ts,react,nodejs,fastapi,postgres,redis,docker,linux,git,githubactions,pytorch,tensorflow" alt="Tech stack" />
 </p>
 
-### What I Work On
+### Current Orbit
 
-| Area | Work |
-| --- | --- |
-| Backend systems | APIs, workers, queues, database flows, service control panels |
-| Automation | Steam bots, payment monitoring, operational dashboards, deployment scripts |
-| AI/ML | Forecasting, NLP, model experiments, explainability, MLOps foundations |
-| Frontend integration | Clean React interfaces connected to real backend state |
+```txt
+Focus      Backend engineering, AI/ML systems, automation
+Building   Production web platforms and service orchestration
+Exploring  LLM workflows, MLOps, distributed reliability
+Location   India
+```
 
 ### Engineering Style
 
 - Keep systems simple enough to operate under pressure.
-- Prefer real observability over guessing from the UI.
-- Ship small, verify with logs/tests, then improve the weak points.
+- Prefer logs, metrics, and reproducible checks over guessing.
+- Ship small, verify behavior, then harden the weak points.
 - Build products that are useful first and impressive second.
 
 ---

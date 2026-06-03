@@ -1,1 +1,81 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="core" cx="50%" cy="50%" r="68%">
+      <stop offset="0%" stop-color="#172554"/>
+      <stop offset="45%" stop-color="#020617"/>
+      <stop offset="100%" stop-color="#00030a"/>
+    </radialGradient>
+    <linearGradient id="scan" x1="0" y1="0" x2="1280" y2="360">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="45%" stop-color="#a78bfa" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.08"/>
+    </linearGradient>
+    <linearGradient id="line" x1="220" y1="275" x2="1060" y2="275">
+      <stop stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0.22" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="0.78" stop-color="#38bdf8"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
 
+  <rect width="1280" height="360" fill="url(#core)"/>
+  <rect width="1280" height="360" fill="url(#scan)"/>
+
+  <g opacity="0.24">
+    <path d="M0 290C180 230 315 252 490 285C680 321 845 304 1030 246C1125 216 1208 204 1280 214" stroke="#38bdf8" stroke-width="1"/>
+    <path d="M0 303C173 254 321 265 487 297C686 335 864 319 1048 260C1142 230 1219 221 1280 231" stroke="#a78bfa" stroke-width="1"/>
+    <path d="M0 320H1280" stroke="#334155" stroke-width="1"/>
+  </g>
+
+  <g opacity="0.16">
+    <path d="M90 80H1190"/>
+    <path d="M90 120H1190"/>
+    <path d="M90 160H1190"/>
+    <path d="M90 200H1190"/>
+    <path d="M90 240H1190"/>
+    <path d="M180 50V292"/>
+    <path d="M320 50V292"/>
+    <path d="M460 50V292"/>
+    <path d="M600 50V292"/>
+    <path d="M740 50V292"/>
+    <path d="M880 50V292"/>
+    <path d="M1020 50V292"/>
+    <path d="M1160 50V292"/>
+  </g>
+
+  <g filter="url(#glow)">
+    <circle cx="1014" cy="92" r="92" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5"/>
+    <circle cx="1014" cy="92" r="58" stroke="#a78bfa" stroke-opacity="0.34" stroke-width="1"/>
+    <path d="M930 116C973 151 1052 151 1098 106" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.5"/>
+    <path d="M941 62C982 32 1052 34 1088 70" stroke="#a78bfa" stroke-opacity="0.45" stroke-width="1.2"/>
+  </g>
+
+  <g fill="#e2e8f0" opacity="0.8">
+    <circle cx="100" cy="66" r="1.2"/>
+    <circle cx="168" cy="148" r="1"/>
+    <circle cx="232" cy="74" r="1.4"/>
+    <circle cx="360" cy="104" r="1"/>
+    <circle cx="500" cy="58" r="1.2"/>
+    <circle cx="612" cy="118" r="1"/>
+    <circle cx="738" cy="70" r="1.4"/>
+    <circle cx="842" cy="142" r="1"/>
+    <circle cx="1110" cy="170" r="1.3"/>
+    <circle cx="1198" cy="84" r="1"/>
+    <circle cx="1224" cy="228" r="1.4"/>
+  </g>
+
+  <text x="92" y="118" fill="#7dd3fc" font-family="Consolas, 'Courier New', monospace" font-size="18" letter-spacing="5">SYSTEMS / AI / AUTOMATION</text>
+  <text x="88" y="188" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="2">SATWIK RAI</text>
+  <text x="94" y="234" fill="#cbd5e1" font-family="Consolas, 'Courier New', monospace" font-size="22">backend-first engineering for real production workflows</text>
+
+  <rect x="92" y="268" width="1096" height="1.5" fill="url(#line)"/>
+  <text x="94" y="306" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" font-size="17">ship small  //  observe everything  //  automate the boring parts</text>
+</svg>
