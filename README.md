@@ -7,11 +7,11 @@
 </div>
 
 <p align="center">
-  <a href="https://satwik.lstv.space">
-    <img src="https://img.shields.io/badge/portfolio-0b1120?style=for-the-badge&logo=vercel&logoColor=7dd3fc&labelColor=020617" alt="Portfolio" />
+  <a href="https://discord.gg/53CSgmGdGP">
+    <img src="https://img.shields.io/badge/discord-0b1120?style=for-the-badge&logo=discord&logoColor=7dd3fc&labelColor=020617" alt="Discord" />
   </a>
-  <a href="https://linkedin.com/in/satwik-rai-050426338">
-    <img src="https://img.shields.io/badge/linkedin-0b1120?style=for-the-badge&logo=linkedin&logoColor=7dd3fc&labelColor=020617" alt="LinkedIn" />
+  <a href="https://t.me/kekw11">
+    <img src="https://img.shields.io/badge/telegram-0b1120?style=for-the-badge&logo=telegram&logoColor=7dd3fc&labelColor=020617" alt="Telegram" />
   </a>
   <a href="mailto:pulakrai10@gmail.com">
     <img src="https://img.shields.io/badge/email-0b1120?style=for-the-badge&logo=gmail&logoColor=a78bfa&labelColor=020617" alt="Email" />
@@ -59,21 +59,6 @@ Based in     India
 - Prefer real observability over guessing from the UI.
 - Ship small, verify with logs/tests, then improve the weak points.
 - Build products that are useful first and impressive second.
-
-### Signal
-
-<p align="center">
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=Sat-14&show_icons=true&hide_border=true&bg_color=020617&title_color=7dd3fc&text_color=cbd5e1&icon_color=a78bfa&ring_color=7dd3fc"
-    alt="GitHub stats"
-  />
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sat-14&layout=compact&hide_border=true&bg_color=020617&title_color=7dd3fc&text_color=cbd5e1"
-    alt="Top languages"
-  />
-</p>
 
 ---
 
