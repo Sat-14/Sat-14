@@ -16,6 +16,12 @@ rule: useful systems first, impressive surfaces second
 
 I build production software around APIs, workers, payment flows, Steam automation, admin tooling, deployment pipelines, and AI-assisted engineering workflows. I like systems that can be observed, restarted, audited, and improved without guessing.
 
+<div align="center">
+  <img src="./assets/terminal.svg" width="100%" alt="Animated production terminal card" />
+</div>
+
+## What I Actually Build
+
 <table>
   <tr>
     <td width="50%">
@@ -30,7 +36,11 @@ I build production software around APIs, workers, payment flows, Steam automatio
   </tr>
 </table>
 
-### Signal
+<div align="center">
+  <img src="./assets/system-map.svg" width="100%" alt="Production system map from design to live service" />
+</div>
+
+## Signal
 
 <table>
   <tr>
@@ -57,7 +67,44 @@ admin dashboards that operators can trust
 ai-assisted production velocity
 ```
 
-### Stack I Reach For
+## Field Notes
+
+```txt
+if a service can fail:
+  make the failure visible
+  make recovery boring
+  make the next deploy safer
+
+if a workflow repeats:
+  automate it
+  document the sharp edges
+  add a check before humans forget
+```
+
+<details>
+  <summary><strong>open the black box</strong></summary>
+  <br />
+  <table>
+    <tr>
+      <td><code>payments</code></td>
+      <td>invoice flows, exact amount detection, refunds, swaps, wallet operations</td>
+    </tr>
+    <tr>
+      <td><code>steam</code></td>
+      <td>trade offers, inventory checks, bot sessions, stock reservations</td>
+    </tr>
+    <tr>
+      <td><code>admin</code></td>
+      <td>service controls, live stats, logs, operational actions, safety guards</td>
+    </tr>
+    <tr>
+      <td><code>deploy</code></td>
+      <td>VPS workflows, frontend builds, Caddy, systemd, health checks</td>
+    </tr>
+  </table>
+</details>
+
+## Stack I Reach For
 
 <p>
   <code>Python</code>

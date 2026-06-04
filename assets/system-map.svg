@@ -1,0 +1,62 @@
+<svg width="1280" height="300" viewBox="0 0 1280 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="300">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="wire" x1="112" y1="150" x2="1168" y2="150">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.5" stop-color="#a78bfa"/>
+      <stop offset="1" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .label { font-family: Consolas, "Courier New", monospace; font-size: 17px; fill: #e2e8f0; }
+      .small { font-family: Consolas, "Courier New", monospace; font-size: 13px; fill: #94a3b8; }
+      .wire { stroke-dasharray: 12 10; animation: dash 12s linear infinite; }
+      .node { animation: nodePulse 3s ease-in-out infinite; }
+      .node2 { animation-delay: .6s; }
+      .node3 { animation-delay: 1.2s; }
+      .node4 { animation-delay: 1.8s; }
+      @keyframes dash { to { stroke-dashoffset: -220; } }
+      @keyframes nodePulse { 50% { opacity: .58; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="300" rx="26" fill="url(#bg)"/>
+  <text x="78" y="58" class="small">PRODUCTION MAP</text>
+  <text x="78" y="88" class="label">from idea to running service</text>
+  <path d="M160 156H1120" stroke="url(#wire)" stroke-width="3" class="wire" filter="url(#glow)"/>
+
+  <g class="node">
+    <rect x="98" y="116" width="170" height="86" rx="18" fill="#0b1220" stroke="#22d3ee" stroke-opacity=".58"/>
+    <text x="132" y="153" class="label">design</text>
+    <text x="124" y="179" class="small">contracts first</text>
+  </g>
+  <g class="node node2">
+    <rect x="354" y="116" width="170" height="86" rx="18" fill="#0b1220" stroke="#a78bfa" stroke-opacity=".58"/>
+    <text x="392" y="153" class="label">build</text>
+    <text x="386" y="179" class="small">small slices</text>
+  </g>
+  <g class="node node3">
+    <rect x="610" y="116" width="170" height="86" rx="18" fill="#0b1220" stroke="#67e8f9" stroke-opacity=".58"/>
+    <text x="642" y="153" class="label">observe</text>
+    <text x="640" y="179" class="small">logs + checks</text>
+  </g>
+  <g class="node node4">
+    <rect x="866" y="116" width="170" height="86" rx="18" fill="#0b1220" stroke="#34d399" stroke-opacity=".58"/>
+    <text x="898" y="153" class="label">harden</text>
+    <text x="898" y="179" class="small">edge cases</text>
+  </g>
+  <g>
+    <rect x="1090" y="116" width="92" height="86" rx="18" fill="#052e2b" stroke="#34d399" stroke-opacity=".72"/>
+    <text x="1117" y="153" class="label">run</text>
+    <text x="1112" y="179" class="small">live</text>
+  </g>
+</svg>

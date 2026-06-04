@@ -1,0 +1,64 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="terminalBg" x1="0" y1="0" x2="1280" y2="360">
+      <stop stop-color="#020617"/>
+      <stop offset="0.52" stop-color="#050914"/>
+      <stop offset="1" stop-color="#0b1020"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="42" y1="40" x2="1238" y2="320">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.45" stop-color="#334155"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="terminalGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <style>
+      .line { font-family: Consolas, "Courier New", monospace; font-size: 22px; }
+      .muted { fill: #94a3b8; }
+      .ok { fill: #86efac; }
+      .blue { fill: #67e8f9; }
+      .violet { fill: #c4b5fd; }
+      .cursor { animation: blink 1.05s steps(2, start) infinite; }
+      .pulse { animation: pulse 2.8s ease-in-out infinite; }
+      .fade1 { animation: fade 5.6s ease-in-out infinite; }
+      .fade2 { animation: fade 5.6s ease-in-out 0.7s infinite; }
+      .fade3 { animation: fade 5.6s ease-in-out 1.4s infinite; }
+      @keyframes blink { 50% { opacity: 0; } }
+      @keyframes pulse { 50% { opacity: 0.32; } }
+      @keyframes fade { 0%, 100% { opacity: 0.52; } 45% { opacity: 1; } }
+    </style>
+  </defs>
+
+  <rect width="1280" height="360" rx="28" fill="url(#terminalBg)"/>
+  <rect x="42" y="40" width="1196" height="280" rx="22" fill="#020617" stroke="url(#edge)" stroke-opacity="0.65"/>
+  <rect x="42" y="40" width="1196" height="44" rx="22" fill="#0f172a"/>
+  <path d="M42 84H1238" stroke="#1e293b"/>
+  <circle cx="76" cy="62" r="7" fill="#ef4444"/>
+  <circle cx="102" cy="62" r="7" fill="#eab308"/>
+  <circle cx="128" cy="62" r="7" fill="#22c55e"/>
+  <text x="604" y="69" class="line muted" font-size="16">sat-14@command-center:~/production</text>
+
+  <text x="76" y="126" class="line blue">$ deploy --mindset=calm --scope=real-users</text>
+  <text x="76" y="166" class="line ok fade1">[ok] api contracts checked</text>
+  <text x="76" y="204" class="line ok fade2">[ok] workers observable</text>
+  <text x="76" y="242" class="line ok fade3">[ok] failure paths documented</text>
+  <text x="76" y="282" class="line violet">ship small; verify live; harden the edge cases</text>
+  <rect x="736" y="264" width="12" height="25" fill="#67e8f9" class="cursor" filter="url(#terminalGlow)"/>
+
+  <g class="pulse" opacity="0.64" stroke="#22d3ee" stroke-opacity="0.45">
+    <path d="M842 138H1162"/>
+    <path d="M842 178H1162"/>
+    <path d="M842 218H1162"/>
+    <path d="M882 112V250"/>
+    <path d="M962 112V250"/>
+    <path d="M1042 112V250"/>
+    <circle cx="882" cy="178" r="28"/>
+    <circle cx="1042" cy="178" r="28"/>
+    <path d="M910 178H1014"/>
+  </g>
+</svg>
