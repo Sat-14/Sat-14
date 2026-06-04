@@ -1,24 +1,35 @@
-<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <radialGradient id="core" cx="50%" cy="50%" r="68%">
-      <stop offset="0%" stop-color="#172554"/>
-      <stop offset="45%" stop-color="#020617"/>
-      <stop offset="100%" stop-color="#00030a"/>
+    <radialGradient id="bg" cx="50%" cy="18%" r="82%">
+      <stop offset="0%" stop-color="#10213f"/>
+      <stop offset="42%" stop-color="#050914"/>
+      <stop offset="100%" stop-color="#01030a"/>
     </radialGradient>
-    <linearGradient id="scan" x1="0" y1="0" x2="1280" y2="360">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
-      <stop offset="45%" stop-color="#a78bfa" stop-opacity="0.22"/>
-      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.08"/>
+    <linearGradient id="glass" x1="150" y1="86" x2="1130" y2="340">
+      <stop stop-color="#1e293b" stop-opacity="0.78"/>
+      <stop offset="1" stop-color="#020617" stop-opacity="0.42"/>
     </linearGradient>
-    <linearGradient id="line" x1="220" y1="275" x2="1060" y2="275">
-      <stop stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="0.22" stop-color="#38bdf8"/>
+    <linearGradient id="neon" x1="156" y1="322" x2="1124" y2="322">
+      <stop stop-color="#22d3ee" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#22d3ee"/>
       <stop offset="0.5" stop-color="#a78bfa"/>
-      <stop offset="0.78" stop-color="#38bdf8"/>
-      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="0.82" stop-color="#34d399"/>
+      <stop offset="1" stop-color="#34d399" stop-opacity="0"/>
     </linearGradient>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
+    <linearGradient id="panelStroke" x1="150" y1="72" x2="1130" y2="348">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#64748b"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <filter id="softGlow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="textGlow" x="-10%" y="-30%" width="120%" height="160%">
+      <feGaussianBlur stdDeviation="1.4" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -26,56 +37,70 @@
     </filter>
   </defs>
 
-  <rect width="1280" height="360" fill="url(#core)"/>
-  <rect width="1280" height="360" fill="url(#scan)"/>
+  <rect width="1280" height="420" fill="url(#bg)"/>
+  <rect width="1280" height="420" fill="#020617" opacity="0.16"/>
 
-  <g opacity="0.24">
-    <path d="M0 290C180 230 315 252 490 285C680 321 845 304 1030 246C1125 216 1208 204 1280 214" stroke="#38bdf8" stroke-width="1"/>
-    <path d="M0 303C173 254 321 265 487 297C686 335 864 319 1048 260C1142 230 1219 221 1280 231" stroke="#a78bfa" stroke-width="1"/>
-    <path d="M0 320H1280" stroke="#334155" stroke-width="1"/>
+  <g opacity="0.18" stroke="#334155" stroke-width="1">
+    <path d="M0 80H1280"/>
+    <path d="M0 140H1280"/>
+    <path d="M0 200H1280"/>
+    <path d="M0 260H1280"/>
+    <path d="M0 320H1280"/>
+    <path d="M120 0V420"/>
+    <path d="M240 0V420"/>
+    <path d="M360 0V420"/>
+    <path d="M480 0V420"/>
+    <path d="M600 0V420"/>
+    <path d="M720 0V420"/>
+    <path d="M840 0V420"/>
+    <path d="M960 0V420"/>
+    <path d="M1080 0V420"/>
+    <path d="M1200 0V420"/>
   </g>
 
-  <g opacity="0.16">
-    <path d="M90 80H1190"/>
-    <path d="M90 120H1190"/>
-    <path d="M90 160H1190"/>
-    <path d="M90 200H1190"/>
-    <path d="M90 240H1190"/>
-    <path d="M180 50V292"/>
-    <path d="M320 50V292"/>
-    <path d="M460 50V292"/>
-    <path d="M600 50V292"/>
-    <path d="M740 50V292"/>
-    <path d="M880 50V292"/>
-    <path d="M1020 50V292"/>
-    <path d="M1160 50V292"/>
+  <g opacity="0.75">
+    <circle cx="91" cy="62" r="1.4" fill="#e2e8f0"/>
+    <circle cx="168" cy="292" r="1" fill="#94a3b8"/>
+    <circle cx="303" cy="72" r="1.2" fill="#c4b5fd"/>
+    <circle cx="488" cy="354" r="1" fill="#7dd3fc"/>
+    <circle cx="704" cy="56" r="1.3" fill="#e2e8f0"/>
+    <circle cx="982" cy="372" r="1.2" fill="#86efac"/>
+    <circle cx="1160" cy="92" r="1" fill="#94a3b8"/>
+    <circle cx="1224" cy="284" r="1.4" fill="#7dd3fc"/>
   </g>
 
-  <g filter="url(#glow)">
-    <circle cx="1014" cy="92" r="92" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.5"/>
-    <circle cx="1014" cy="92" r="58" stroke="#a78bfa" stroke-opacity="0.34" stroke-width="1"/>
-    <path d="M930 116C973 151 1052 151 1098 106" stroke="#38bdf8" stroke-opacity="0.5" stroke-width="1.5"/>
-    <path d="M941 62C982 32 1052 34 1088 70" stroke="#a78bfa" stroke-opacity="0.45" stroke-width="1.2"/>
+  <path d="M0 348C154 306 276 316 408 345C566 379 704 368 842 326C984 282 1122 276 1280 304" stroke="#38bdf8" stroke-opacity="0.24"/>
+  <path d="M0 366C174 332 300 338 448 364C604 391 748 384 902 344C1048 307 1162 307 1280 328" stroke="#a78bfa" stroke-opacity="0.20"/>
+
+  <g filter="url(#softGlow)">
+    <circle cx="1016" cy="130" r="86" stroke="#38bdf8" stroke-opacity="0.25" stroke-width="1.4"/>
+    <circle cx="1016" cy="130" r="54" stroke="#a78bfa" stroke-opacity="0.45"/>
+    <circle cx="1016" cy="130" r="8" fill="#22d3ee" fill-opacity="0.86"/>
+    <path d="M944 154C984 184 1052 184 1093 148" stroke="#38bdf8" stroke-opacity="0.55" stroke-width="1.4"/>
+    <path d="M955 98C995 70 1048 72 1084 102" stroke="#a78bfa" stroke-opacity="0.45" stroke-width="1.2"/>
+    <path d="M1016 44V216M930 130H1102" stroke="#64748b" stroke-opacity="0.28"/>
   </g>
 
-  <g fill="#e2e8f0" opacity="0.8">
-    <circle cx="100" cy="66" r="1.2"/>
-    <circle cx="168" cy="148" r="1"/>
-    <circle cx="232" cy="74" r="1.4"/>
-    <circle cx="360" cy="104" r="1"/>
-    <circle cx="500" cy="58" r="1.2"/>
-    <circle cx="612" cy="118" r="1"/>
-    <circle cx="738" cy="70" r="1.4"/>
-    <circle cx="842" cy="142" r="1"/>
-    <circle cx="1110" cy="170" r="1.3"/>
-    <circle cx="1198" cy="84" r="1"/>
-    <circle cx="1224" cy="228" r="1.4"/>
-  </g>
+  <rect x="150" y="72" width="980" height="276" rx="28" fill="url(#glass)" stroke="url(#panelStroke)" stroke-opacity="0.42"/>
+  <rect x="174" y="96" width="92" height="8" rx="4" fill="#ef4444" fill-opacity="0.75"/>
+  <rect x="278" y="96" width="92" height="8" rx="4" fill="#eab308" fill-opacity="0.75"/>
+  <rect x="382" y="96" width="92" height="8" rx="4" fill="#22c55e" fill-opacity="0.75"/>
 
-  <text x="92" y="118" fill="#7dd3fc" font-family="Consolas, 'Courier New', monospace" font-size="18" letter-spacing="5">SYSTEMS / AI / AUTOMATION</text>
-  <text x="88" y="188" fill="#f8fafc" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="68" font-weight="800" letter-spacing="2">SATWIK RAI</text>
-  <text x="94" y="234" fill="#cbd5e1" font-family="Consolas, 'Courier New', monospace" font-size="22">backend-first engineering for real production workflows</text>
+  <text x="180" y="142" fill="#67e8f9" font-family="Consolas, 'Courier New', monospace" font-size="18" letter-spacing="5">SAT-14 // COMMAND CENTER</text>
+  <text x="178" y="212" fill="#f8fafc" filter="url(#textGlow)" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="68" font-weight="850" letter-spacing="1.5">Satwik Rai</text>
+  <text x="184" y="256" fill="#cbd5e1" font-family="Consolas, 'Courier New', monospace" font-size="23">backend systems / automation / AI-assisted production engineering</text>
 
-  <rect x="92" y="268" width="1096" height="1.5" fill="url(#line)"/>
-  <text x="94" y="306" fill="#94a3b8" font-family="Consolas, 'Courier New', monospace" font-size="17">ship small  //  observe everything  //  automate the boring parts</text>
+  <rect x="184" y="292" width="238" height="34" rx="17" fill="#020617" stroke="#1e293b"/>
+  <circle cx="206" cy="309" r="5" fill="#34d399"/>
+  <text x="222" y="316" fill="#d1fae5" font-family="Consolas, 'Courier New', monospace" font-size="15">systems online</text>
+
+  <rect x="442" y="292" width="258" height="34" rx="17" fill="#020617" stroke="#1e293b"/>
+  <circle cx="464" cy="309" r="5" fill="#22d3ee"/>
+  <text x="480" y="316" fill="#cffafe" font-family="Consolas, 'Courier New', monospace" font-size="15">automation active</text>
+
+  <rect x="720" y="292" width="270" height="34" rx="17" fill="#020617" stroke="#1e293b"/>
+  <circle cx="742" cy="309" r="5" fill="#a78bfa"/>
+  <text x="758" y="316" fill="#ede9fe" font-family="Consolas, 'Courier New', monospace" font-size="15">shipping production</text>
+
+  <rect x="156" y="337" width="968" height="2" fill="url(#neon)"/>
 </svg>
