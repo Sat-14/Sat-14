@@ -40,6 +40,12 @@ I build production software around APIs, workers, payment flows, Steam automatio
   <img src="./assets/system-map.svg" width="100%" alt="Production system map from design to live service" />
 </div>
 
+## Contribution Signal
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Sat-14&bg_color=020617&color=67e8f9&line=a78bfa&point=34d399&area=true&hide_border=true&custom_title=Contribution%20Signal" width="100%" alt="Sat-14 GitHub contribution activity graph" />
+</div>
+
 ## Signal
 
 <table>
